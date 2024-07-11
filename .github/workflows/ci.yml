@@ -22,7 +22,7 @@ jobs:
       run: ./gradlew build
 
     - name: Build Docker image
-      run: docker build -t docker.io/ parteekbhatia954/test .
+      run: docker build -t docker.io/parteekbhatia954/test .
 
     - name: Push Docker image
       run: |
